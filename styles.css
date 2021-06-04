@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-styling: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid orange;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    border: 3px dotted green;
+    height: 100px;
+}
+.header2 img{
+    width: 90px;
+    height: 90px;
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-between;  /* This controls both children */
+    border: 3px solid red;
+}
+.news-header3{
+    display: flex;
+    justify-content: center;
+    margin: 20px;  /* Left side of the container */
+}
+
+.news-header3 > div {
+    margin-right: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact div > img {
+    margin-right: 20px;
+}
+
+.contact > p {
+    margin-right: 20px;
+}
+.ad-box {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid purple;
+    margin: 50px;
+}
+
+.ad-box img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}
+.box1{
+    background-color: deeppink;
+    width: 50%;
+}
+
+.box2{
+    background-color: hotpink;
+    width: 50%;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid yellow;
+    margin: 50px;
+}
+.box3{
+    background-color: aqua;
+
+}
+
+.box4{
+    background-color: lightseagreen;
+
+}
+
+.box5{
+    background-color: darkgreen;
+
+}
+
+.house{
+    width: 30px;
+    height: 30px;
+}
+
+.envelope {
+    width: 30px;
+    height: 30px;
+}
+
+.contact img:nth-child(1) {
+    width: 30px;
+    height: 30px;
+}
